@@ -367,7 +367,7 @@ main .sobre {
     text-align: center;
     max-width: 300px;
     align-items: center;
-    main-height: 300px;
+    min-height:  300px;
     background-color: #222;
 }
 
