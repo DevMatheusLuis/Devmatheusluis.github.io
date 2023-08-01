@@ -773,7 +773,7 @@ main .sobre {
 
 .projetos_armazenamento ul li {
     display: none;
-    max-width: 100%;
+    max-width: 200%;
     height: 100%;
 }
 
