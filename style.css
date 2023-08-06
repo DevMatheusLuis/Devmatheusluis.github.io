@@ -863,3 +863,7 @@ footer .footer_comercial {
     font-size: 1.5rem;
     font-family: 'poppins';
 }
+html {
+    scroll-behavior: smooth;
+
+}
