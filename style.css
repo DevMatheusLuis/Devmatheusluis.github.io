@@ -19,6 +19,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 header h1 {
     color: #dc3545;
@@ -332,6 +333,17 @@ main .sobre {
     }
 }
 
+@media(max-width : 420px) {
+    .sobre {
+        justify-content: center;
+    }
+
+}
+
+    
+
+
+
 .Sobre_conteudo {
     grid-column: 1/-1;
 }
@@ -516,7 +528,7 @@ main .sobre {
 }
 
 .experience_content ul li.ativo {
-    color: #3e3d3d;
+    color: #dc3545
 }
 
 /* MEUS DIPLOMAS E CURSOS   */
@@ -763,6 +775,10 @@ main .sobre {
     font-weight: bold;
 }
 
+.projetos_armazenamento {
+    position: static;
+}
+
 .projetos_armazenamento ul {
     display: grid;
     margin-top: 60px;
@@ -772,22 +788,26 @@ main .sobre {
 }
 
 .projetos_armazenamento ul li {
-    display: none;
+    display: ;   /*não esquecer de colocar o None */
     max-width: 250px;
     height: 250px;
 }
+
+
 
 .projetos_armazenamento ul li.ativo {
     display: block;
     animation:animationImagemButton 2s ease-in-out forwards ;
 }
 
+
 .projetos_armazenamento ul li img {
     max-width: 100%;
     height: 100%;
     border-radius: 4px;
     cursor: pointer;
-}
+} 
+
 
 .Projects a {
     background-color: #222;
@@ -866,4 +886,6 @@ footer .footer_comercial {
 
 html {
     scroll-behavior: smooth ;
-}
+}  
+  
+
